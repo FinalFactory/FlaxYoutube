@@ -1,0 +1,14 @@
+{
+	"ID": "052c28ab496dee2cdd4275b24dc32420",
+	"TypeName": "FlaxEditor.Content.Settings.MacPlatformSettings",
+	"EngineBuild": 6333,
+	"Data": {
+	"AppIdentifier": "com.${COMPANY_NAME}.${PROJECT_NAME}",
+	"WindowMode": 0,
+	"ScreenWidth": 1280,
+	"ScreenHeight": 720,
+	"ResizableWindow": false,
+	"OverrideIcon": null,
+	"RunInBackground": false
+}
+}
