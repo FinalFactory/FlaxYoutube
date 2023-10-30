@@ -1,0 +1,153 @@
+{
+	"ID": "bd1733df47491fbbc199619172b8703a",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6403,
+	"Data": [
+	{
+		"ID": "95d1666f47f24fe6bcaecfb740e12eb8",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "Button Case",
+		"Transform": {
+			"Translation": {
+				"X": -339.1058349609375,
+				"Y": 250.4612579345703,
+				"Z": 498.4573364257813
+			},
+			"Orientation": {
+				"X": -0.7071068286895752,
+				"Y": 0.0,
+				"Z": 0.0,
+				"W": 0.7071068286895752
+			},
+			"Scale": {
+				"X": 3.0,
+				"Y": 3.0,
+				"Z": 3.0
+			}
+		},
+		"Model": "9ba8ad3e430784a7e02b17939d0a2479",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "50f9a2484142410eee52068b266c14f3",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "95d1666f47f24fe6bcaecfb740e12eb8",
+		"Name": "Knob",
+		"Model": "363a70ae4b6a6112411054a66c7752b7",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "78af5eb84187f47f806f22993c0f9570",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "95d1666f47f24fe6bcaecfb740e12eb8",
+		"Name": "BoxCollider",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 10.941909790039065,
+				"Z": 0.0
+			}
+		},
+		"IsTrigger": true,
+		"Size": {
+			"X": 15.0,
+			"Y": 15.0,
+			"Z": 15.0
+		}
+	},
+	{
+		"ID": "0199a4cf4c09a1ba0db443a8c4f848c4",
+		"TypeName": "Game.Button",
+		"ParentID": "78af5eb84187f47f806f22993c0f9570",
+		"V": {
+			"ButtonPush": "3946fa674f7815e11ccf29aa75b33ceb",
+			"LidScript": "6a2a3f4344407d55df940f99a767faea"
+		}
+	}
+]
+}

@@ -6,7 +6,3 @@ public interface IInteractable
     void OnLookAway();
     void OnInteraction();
 }
-
-
-
-

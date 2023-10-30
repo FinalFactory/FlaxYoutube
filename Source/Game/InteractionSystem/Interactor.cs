@@ -1,4 +1,8 @@
-﻿using System;
+﻿
+
+//#define USE_RAYCAST
+
+using System;
 using System.Collections.Generic;
 using FlaxEngine;
 
@@ -54,7 +58,11 @@ public class Interactor : Script
 #if FLAX_EDITOR
         _lastHitPoint = null;
 #endif
+#if USE_RAYCAST
+        if (Physics.RayCastAll(Actor.Position, Actor.Direction, out var hits, Distance))
+#else
         if (Physics.SphereCastAll(Actor.Position, Radius, Actor.Direction, out var hits, Distance))
+#endif
         {
             foreach (var hit in hits)
             {

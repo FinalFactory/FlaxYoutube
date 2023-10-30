@@ -1,0 +1,187 @@
+{
+	"ID": "a4b0175548b4c14ba92552bd94319876",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6403,
+	"Data": [
+	{
+		"ID": "312b9dc5403ae4a588a86299a32e52a8",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "Button Case",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 101.05915832519533,
+				"Z": 0.0
+			}
+		},
+		"Model": "9ba8ad3e430784a7e02b17939d0a2479",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "f318da454a7c1b9123730abe098b6fe2",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "312b9dc5403ae4a588a86299a32e52a8",
+		"Name": "Knob",
+		"Model": "363a70ae4b6a6112411054a66c7752b7",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "d04adaea4a749b20207efda08afc7467",
+		"TypeName": "Game.ButtonPush",
+		"ParentID": "f318da454a7c1b9123730abe098b6fe2",
+		"V": {}
+	},
+	{
+		"ID": "456dd0944ba8d5ffcd6e8d93cd5fb4fd",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "312b9dc5403ae4a588a86299a32e52a8",
+		"Name": "Cover",
+		"Transform": {
+			"Translation": {
+				"X": -8.289194107055664,
+				"Y": 11.918861389160157,
+				"Z": 0.06368207931518555
+			}
+		},
+		"Model": "bd3adcee41c6701cf3c87da02339c036",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "d091b1324a0f2992435efeb51c89695c",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "02c7736842f7fc01585224adbcdd21b1",
+		"TypeName": "Game.LidScript",
+		"ParentID": "456dd0944ba8d5ffcd6e8d93cd5fb4fd",
+		"V": {
+			"TargetAngle": 100.0,
+			"RotationSpeed": 100.0
+		}
+	},
+	{
+		"ID": "da0e6dca4e9c8ede9212f681d0a94cbf",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "312b9dc5403ae4a588a86299a32e52a8",
+		"Name": "BoxCollider",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 10.941909790039065,
+				"Z": 0.0
+			}
+		},
+		"IsTrigger": true,
+		"Size": {
+			"X": 15.0,
+			"Y": 15.0,
+			"Z": 15.0
+		}
+	},
+	{
+		"ID": "8ee021a0462ce9286dad6e9948dac05d",
+		"TypeName": "Game.Button",
+		"ParentID": "da0e6dca4e9c8ede9212f681d0a94cbf",
+		"V": {
+			"ButtonPush": "d04adaea4a749b20207efda08afc7467",
+			"LidScript": "02c7736842f7fc01585224adbcdd21b1"
+		}
+	}
+]
+}

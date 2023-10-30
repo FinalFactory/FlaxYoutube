@@ -1,7 +1,7 @@
 {
 	"ID": "74a68a984824b4510d12589f199ad68f",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6345,
+	"EngineBuild": 6403,
 	"Data": [
 		{
 			"ID": "74a68a984824b4510d12589f199ad68f",
@@ -27,7 +27,14 @@
 			"ID": "28553d634087c67c711ebd96080482aa",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "Visuals"
+			"Name": "Visuals",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 1000.0,
+					"Z": 0.0
+				}
+			}
 		},
 		{
 			"ID": "bc81376747666609b0974580a21519a1",
@@ -99,49 +106,15 @@
 			"Mode": 0
 		},
 		{
-			"ID": "b0d72c3746caebca055e1f921ca21c7c",
-			"TypeName": "FlaxEngine.Camera",
-			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "Camera",
-			"Transform": {
-				"Translation": {
-					"X": -198.75326538085938,
-					"Y": 196.89071655273438,
-					"Z": 190.70037841796876
-				},
-				"Orientation": {
-					"X": 0.06189095228910446,
-					"Y": 0.9198267459869385,
-					"Z": -0.1617070734500885,
-					"W": 0.35204988718032839
-				}
-			},
-			"StaticFlags": 0
-		},
-		{
-			"ID": "9053ad38428b10594c741db78d7fcca5",
-			"TypeName": "FreeCamera",
-			"ParentID": "b0d72c3746caebca055e1f921ca21c7c",
-			"V": {}
-		},
-		{
-			"ID": "bfd49ca4451e76d56a114e92c75d2bfd",
-			"TypeName": "Game.Interactor",
-			"ParentID": "b0d72c3746caebca055e1f921ca21c7c",
-			"V": {
-	"Radius": 5.0
-}
-		},
-		{
 			"ID": "4a9d87134ab42f4294db6bbcf1902bde",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "74a68a984824b4510d12589f199ad68f",
 			"Name": "Floor",
 			"Transform": {
 				"Scale": {
-					"X": 10.0,
+					"X": 100.0,
 					"Y": 0.5,
-					"Z": 10.0
+					"Z": 100.0
 				}
 			},
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
@@ -209,15 +182,9 @@
 					"Z": 0.0
 				}
 			},
-			"Model": "1a7bdedb4c2375579275a4b142524faa",
+			"Model": "9ba8ad3e430784a7e02b17939d0a2479",
 			"Buffer": {
 				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
 					{
 						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
@@ -262,9 +229,45 @@
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "9ed0ab9646af2896feda2c83edf70dd0",
 			"Name": "Knob",
-			"Model": "9ba8ad3e430784a7e02b17939d0a2479",
+			"Model": "363a70ae4b6a6112411054a66c7752b7",
 			"Buffer": {
 				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
 					{
 						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
@@ -292,7 +295,7 @@
 					"Z": 0.06368207931518555
 				}
 			},
-			"Model": "2fe170b14a98cca9502711844752dd63",
+			"Model": "bd3adcee41c6701cf3c87da02339c036",
 			"Buffer": {
 				"Entries": [
 					{
@@ -367,7 +370,7 @@
 			"TypeName": "Game.InteractableIndicator",
 			"ParentID": "fc63b54040fb8af89bd55aa4cfa90a42",
 			"V": {
-	"Interactor": "bfd49ca4451e76d56a114e92c75d2bfd",
+	"Interactor": "9dbd794d464ccb33576e03b5b7d1c5d9",
 	"Indicator": "736870df4fbbfe6205e08e9356559460"
 }
 		},
@@ -378,8 +381,8 @@
 			"Name": "Crosshair",
 			"Transform": {
 				"Translation": {
-					"X": 142.0,
-					"Y": 208.0,
+					"X": 824.0,
+					"Y": 484.5,
 					"Z": 0.0
 				}
 			},
@@ -404,7 +407,7 @@
 	"BaseLinesGapScale": 1.0,
 	"Font": {
 		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
-		"Size": 9.0
+		"Size": 20.0
 	},
 	"Material": null,
 	"Margin": {
@@ -470,13 +473,13 @@
 			"Transform": {
 				"Translation": {
 					"X": -50.0,
-					"Y": 10.0,
+					"Y": 40.0,
 					"Z": 0.0
 				}
 			},
 			"Control": "FlaxEngine.GUI.Label",
 			"Data": {
-	"Text": "Press \"F\"",
+	"Text": "Pick Up",
 	"TextColor": {
 		"R": 1.0,
 		"G": 1.0,
@@ -495,7 +498,7 @@
 	"BaseLinesGapScale": 1.0,
 	"Font": {
 		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
-		"Size": 9.0
+		"Size": 20.0
 	},
 	"Material": null,
 	"Margin": {
@@ -512,7 +515,7 @@
 		"X": 0.1,
 		"Y": 100.0
 	},
-	"ClipChildren": true,
+	"ClipChildren": false,
 	"CullChildren": true,
 	"AnchorMin": {
 		"X": 0.5,
@@ -525,7 +528,7 @@
 	"Offsets": {
 		"Left": -50.0,
 		"Right": 100.0,
-		"Top": 10.0,
+		"Top": 40.0,
 		"Bottom": 20.0
 	},
 	"Scale": {
@@ -551,6 +554,269 @@
 	"Visible": true,
 	"AutoFocus": false
 }
+		},
+		{
+			"ID": "da0b4b604d3b4d475da244909899dca6",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "736870df4fbbfe6205e08e9356559460",
+			"Name": "Image",
+			"Transform": {
+				"Translation": {
+					"X": -29.0,
+					"Y": -4.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": null,
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": -29.0,
+		"Right": 32.0,
+		"Top": -4.0,
+		"Bottom": 32.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "b817b2bb436637694e9e80a4341ebfe6",
+			"TypeName": "FlaxEngine.CharacterController",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Player",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 122.21357727050781,
+					"Z": 227.494140625
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Height": 100.0
+		},
+		{
+			"ID": "bab509c44b0bbc62c818ce904b0500c1",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "b817b2bb436637694e9e80a4341ebfe6",
+			"Name": "Cylinder",
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Model": "223aa9894e90973780ab508621517526",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "174aa5fd40d6c22e00caa38a321a12dd",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "b817b2bb436637694e9e80a4341ebfe6",
+			"Name": "Bottom Sphere",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -50.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "ffef1f51430046045d3aa5b00451a0ca",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "b817b2bb436637694e9e80a4341ebfe6",
+			"Name": "Upper Sphere",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 50.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "13790bf247c4624cc83035948a56d0ea",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "b817b2bb436637694e9e80a4341ebfe6",
+			"Name": "Cam Target",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 70.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player"
+		},
+		{
+			"ID": "a96285a34456a7cc22aa3d944231131b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "b817b2bb436637694e9e80a4341ebfe6",
+			"Name": "DealWithIt",
+			"Transform": {
+				"Translation": {
+					"X": -2.092996597290039,
+					"Y": 57.42918395996094,
+					"Z": 46.82623291015625
+				},
+				"Scale": {
+					"X": 2.0,
+					"Y": 2.0,
+					"Z": 2.0
+				}
+			},
+			"Layer": 1,
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "569cb1b74f977dcce4d62fbb2169ae00",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "98fb8a4e44ea5748e676258d0d43ebb0",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Camera 0",
+			"Transform": {
+				"Translation": {
+					"X": -605.840576171875,
+					"Y": 260.2242126464844,
+					"Z": 257.3740539550781
+				},
+				"Orientation": {
+					"X": 0.0926140546798706,
+					"Y": 0.7010154128074646,
+					"Z": -0.0926140546798706,
+					"W": 0.7010154128074646
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"RenderLayersMask": 4294967293
+		},
+		{
+			"ID": "9dbd794d464ccb33576e03b5b7d1c5d9",
+			"TypeName": "Game.Interactor",
+			"ParentID": "98fb8a4e44ea5748e676258d0d43ebb0",
+			"V": {
+	"Distance": 250.0
+}
+		},
+		{
+			"ID": "8d4ebe79408a055279c78bb324f80f91",
+			"TypeName": "FreeCamera",
+			"ParentID": "98fb8a4e44ea5748e676258d0d43ebb0",
+			"V": {}
 		}
 	]
 }
