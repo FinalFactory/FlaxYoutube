@@ -1,0 +1,42 @@
+{
+	"ID": "eb6ff2224d2efeb72fa39e80fdfbae95",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6403,
+	"Data": [
+		{
+			"ID": "eb6ff2224d2efeb72fa39e80fdfbae95",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "c5b833224e99f7be82515aad4a4639e1",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "eb6ff2224d2efeb72fa39e80fdfbae95",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 38.552642822265628,
+					"Z": -1306.610107421875
+				}
+			}
+		},
+		{
+			"ID": "e61933ca4d645a4f200d84a48c2c6611",
+			"TypeName": "FlaxEngine.ParticleEffect",
+			"ParentID": "eb6ff2224d2efeb72fa39e80fdfbae95",
+			"Name": "Firefly System",
+			"Overrides": [],
+			"ParticleSystem": "6a2928e8451a0cfd0fc6d3933b63642c"
+		}
+	]
+}

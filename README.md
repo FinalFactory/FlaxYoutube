@@ -8,6 +8,9 @@ The scene `Particles` demonstrate a small particle system for the FlaxEngine.
 
 Youtube: https://youtu.be/_tfMHJahavI
 
+# Flax GPU Particles
+The scene `GPU Particles` demonstrate GPU firefly particle system for the FlaxEngine.
+
 # License
 Source Code: MIT
 
