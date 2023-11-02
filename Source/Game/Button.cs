@@ -2,7 +2,7 @@
 
 namespace Game;
 
-public class Button : Script, IInteractable
+public class InteractableButton : Script, IInteractable
 {
     public ButtonPush ButtonPush;
     public LidScript LidScript;
