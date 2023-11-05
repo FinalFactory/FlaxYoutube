@@ -8,6 +8,15 @@ The scene `Particles` demonstrate a small particle system for the FlaxEngine.
 
 Youtube: https://youtu.be/_tfMHJahavI
 
+# Flax Large Worlds
+The scene only works with Flax Compiled with Largs worlds! Watch the Youtube video!
+The scene `Large Worlds` demonstrate how to overcome the issues with the floating point precision to create gigantic worlds,
+without having the need to shift the hole world around to maintain a small origin as in other engines needed.
+
+Flax Provides a soloution for this: https://docs.flaxengine.com/manual/editor/large-worlds/
+
+Youtube: https://youtu.be/3GoZlzlLRh4
+
 # Flax GPU Particles
 The scene `GPU Particles` demonstrate GPU firefly particle system for the FlaxEngine.
 
