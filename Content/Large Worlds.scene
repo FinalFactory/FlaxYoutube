@@ -623,8 +623,8 @@
 			"Name": "Button",
 			"Transform": {
 				"Translation": {
-					"X": 1668.0,
-					"Y": 959.0,
+					"X": 1019.0,
+					"Y": 554.0,
 					"Z": 0.0
 				}
 			},
@@ -722,8 +722,8 @@
 			"Name": "TextBox",
 			"Transform": {
 				"Translation": {
-					"X": 1478.0,
-					"Y": 959.0,
+					"X": 879.0,
+					"Y": 554.0,
 					"Z": 0.0
 				}
 			},
@@ -805,7 +805,7 @@
 		"Y": 1.0
 	},
 	"Offsets": {
-		"Left": -270.0,
+		"Left": -220.0,
 		"Right": 120.0,
 		"Top": -30.0,
 		"Bottom": 30.0
@@ -841,8 +841,8 @@
 			"Name": "CheckBox",
 			"Transform": {
 				"Translation": {
-					"X": 1441.0,
-					"Y": 959.0,
+					"X": 792.0,
+					"Y": 554.0,
 					"Z": 0.0
 				}
 			},
@@ -931,8 +931,8 @@
 			"Name": "Label",
 			"Transform": {
 				"Translation": {
-					"X": 1140.0,
-					"Y": 963.0,
+					"X": 491.0,
+					"Y": 558.0,
 					"Z": 0.0
 				}
 			},
@@ -1021,8 +1021,8 @@
 			"Name": "Slider",
 			"Transform": {
 				"Translation": {
-					"X": 1448.0,
-					"Y": 909.0,
+					"X": 799.0,
+					"Y": 506.0,
 					"Z": 0.00010473248403286561
 				},
 				"Orientation": {
@@ -1081,17 +1081,17 @@
 	"ClipChildren": true,
 	"CullChildren": true,
 	"AnchorMin": {
-		"X": 0.0,
-		"Y": 0.0
+		"X": 1.0,
+		"Y": 1.0
 	},
 	"AnchorMax": {
-		"X": 0.0,
-		"Y": 0.0
+		"X": 1.0,
+		"Y": 1.0
 	},
 	"Offsets": {
-		"Left": 1448.0,
-		"Right": 120.0,
-		"Top": 909.0,
+		"Left": -300.0,
+		"Right": 300.0,
+		"Top": -78.0,
 		"Bottom": 30.0
 	},
 	"Scale": {
@@ -1125,8 +1125,8 @@
 			"Name": "Label 0",
 			"Transform": {
 				"Translation": {
-					"X": 1140.0,
-					"Y": 913.0,
+					"X": 491.0,
+					"Y": 508.0,
 					"Z": 0.0
 				}
 			},
@@ -1215,8 +1215,8 @@
 			"Name": "Feedback Label",
 			"Transform": {
 				"Translation": {
-					"X": 1140.0,
-					"Y": 869.0,
+					"X": 0.0,
+					"Y": 472.0,
 					"Z": 0.0
 				}
 			},
@@ -1235,7 +1235,7 @@
 		"B": 1.0,
 		"A": 1.0
 	},
-	"HorizontalAlignment": 2,
+	"HorizontalAlignment": 0,
 	"VerticalAlignment": 1,
 	"Wrapping": 0,
 	"BaseLinesGapScale": 1.0,
@@ -1261,7 +1261,7 @@
 	"ClipChildren": true,
 	"CullChildren": true,
 	"AnchorMin": {
-		"X": 1.0,
+		"X": 0.0,
 		"Y": 1.0
 	},
 	"AnchorMax": {
@@ -1269,9 +1269,9 @@
 		"Y": 1.0
 	},
 	"Offsets": {
-		"Left": -608.0,
-		"Right": 300.0,
-		"Top": -120.0,
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": -112.0,
 		"Bottom": 20.0
 	},
 	"Scale": {
@@ -1279,7 +1279,7 @@
 		"Y": 1.0
 	},
 	"Pivot": {
-		"X": 1.0,
+		"X": 0.5,
 		"Y": 1.0
 	},
 	"Shear": {

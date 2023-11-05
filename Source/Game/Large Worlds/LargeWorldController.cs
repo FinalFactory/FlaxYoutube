@@ -64,7 +64,7 @@ public class LargeWorldController : Script
             //Real chunkSizeHalf = ChunkSize * 0.5;
             //origin = Vector3(Int3((position - chunkSizeHalf) * chunkSizeInv)) * ChunkSize;
             
-            ((Label)LargeWorldOrigin.Control).Text = $"{LargeWorlds.ChunkSize} Large World Origin: {x} Distance to Origin: {(Camera.Position - x).Length:###0.0000}";
+            ((Label)LargeWorldOrigin.Control).Text = $" Chunk Size: {LargeWorlds.ChunkSize} \n Origin: {x} \n Distance to Origin: {(Camera.Position - x).Length:###0.0000}";
         }
     }
 }
